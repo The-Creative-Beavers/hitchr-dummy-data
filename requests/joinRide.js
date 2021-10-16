@@ -1,10 +1,10 @@
-// PATCH: "/api/ride/:rideid"
+// PATCH: '/api/ride/:rideid'
 // Request:
 
 export const joinRide = {
   body: {
     ride_id: 12347,
-    rider_id: 12345,
-    sessionId: 1234567890
-  }
+    user_id: 12345,
+    session_id: '12g34sdf56s78fs90',
+  },
 };

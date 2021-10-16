@@ -1,24 +1,24 @@
-// GET: "/api/user/:userId
+// GET: '/api/user/:userId'
 // Reponse:
 
 export const getUserInfo = {
   body: {
     user_id: 12345,
-    username: "MrDriver",
+    username: 'MrDriver',
     rating: 4.5,
-    payments: [
+    payment_methods: [
       {
-        provider: "Venmo",
-        url: "http://venmo.com/MrDriver"
+        provider: 'Venmo',
+        url: 'https://venmo.com/MrDriver'
       },
       {
-        provider: "PayPal",
-        url: "http://paypal.com/MrDriver"
+        provider: 'PayPal',
+        url: 'https://paypal.com/MrDriver'
       },
       {
-        provider: "Cash App",
-        url: "http://cashapp.com/MrDriver"
+        provider: 'Cash App',
+        url: 'https://cashapp.com/MrDriver'
       },
-    ]
-  }
+    ],
+  },
 };

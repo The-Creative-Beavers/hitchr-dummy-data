@@ -1,13 +1,13 @@
-// POST: "/api/ride"
+// POST: '/api/ride'
 // Request:
 
 export const postNewRide = {
   body: {
     driver_id: 12348,
-    start: "Denver, Colorado",
-    end: "Fort Collins, Colorado",
-    price: 48.90,
+    start_dest: 'Denver, Colorado',
+    end_dest: 'Fort Collins, Colorado',
+    price: 4890,  // database will be handling prices in cents
     seats: 3,
-    session_id: 1234567890
+    session_id: '12g34sdf56s78fs90',
   },
 };
