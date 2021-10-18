@@ -1,4 +1,4 @@
-// GET: '/api/messages/:userId?rec=:recipientId'
+// GET /api/messages/:userId?recipient=:recipientId&page=:page
 // Response:
 
 export const getMessages = {
@@ -6,23 +6,23 @@ export const getMessages = {
     messages: [
       {
         text: 'I\'m headed to Fort Collins, do you not understand how to use this app?',
-        message_id: 11113,
-        sender_id: 12345,
-        recipient_id: 12346,
+        messageId: 11113,
+        senderId: 12345,
+        recipientId: 12346,
         timestamp: 'datetime', //TODO: change to accurate postgresql timestamp output
       },
       {
         text: 'Sure, where are you headed to?',
-        message_id: 11112,
-        sender_id: 12346,
-        recipient_id: 12345,
+        messageId: 11112,
+        senderId: 12346,
+        recipientId: 12345,
         timestamp: 'datetime', //TODO: change to accurate postgresql timestamp output
       },
       {
         text: 'Hey, can you give me a ride?',
-        message_id: 11111,
-        sender_id: 12345,
-        recipient_id: 12346,
+        messageId: 11111,
+        senderId: 12345,
+        recipientId: 12346,
         timestamp: 'datetime', //TODO: change to accurate postgresql timestamp output
       },
     ],

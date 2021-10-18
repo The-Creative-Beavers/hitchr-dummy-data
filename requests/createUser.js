@@ -14,7 +14,7 @@ export const createUser = {
         provider: 'PayPal',
         url: 'https://paypal.com/MsDriverJr'
       },
-    ]
+    ],
   },
 };
 

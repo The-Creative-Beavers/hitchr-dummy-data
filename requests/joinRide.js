@@ -1,10 +1,9 @@
-// PATCH: '/api/ride/:rideid'
+// PATCH: '/api/rides/:rideid'
 // Request:
 
 export const joinRide = {
   body: {
-    ride_id: 12347,
-    user_id: 12345,
-    session_id: '12g34sdf56s78fs90',
+    userId: 12345,
+    sessionId: '12g34sdf56s78fs90',   // will likely be on the query string instead
   },
 };

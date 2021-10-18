@@ -1,4 +1,4 @@
-// GET: '/api/ride?start=:start&end=:end'
+// GET: '/api/rides?startDest=:startDest&endDest=:endDest'
 // Response:
 
 export const getRides = {

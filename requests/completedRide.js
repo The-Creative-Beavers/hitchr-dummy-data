@@ -1,4 +1,4 @@
-// PATCH: '/api/ride/:rideid'
+// PATCH: '/api/rides/:rideid'
 // Request:
 
 export const completedRide = {
