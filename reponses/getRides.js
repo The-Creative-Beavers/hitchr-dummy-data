@@ -16,6 +16,7 @@ export const getRides = {
         start_dest: 'Denver, Colorado',
         end_dest: 'Fort Collins, Colorado',
         completed: "2021-10-05T18:05:05.000Z",
+        riders: null
       },
       {
         ride_id: 12346,
@@ -29,6 +30,10 @@ export const getRides = {
         start_dest: 'Denver, Colorado',
         end_dest: 'Fort Collins, Colorado',
         completed: "2021-10-05T18:05:05.000Z",
+        riders: [
+          12420,
+          15231
+        ]
       },
       {
         ride_id: 12347,
@@ -42,6 +47,9 @@ export const getRides = {
         start_dest: 'Denver, Colorado',
         end_dest: 'Fort Collins, Colorado',
         completed: null,
+        riders: [
+          12234,
+        ]
       },
     ],
   },

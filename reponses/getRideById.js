@@ -13,4 +13,8 @@ export const getRideById = {
   start_dest: 'Denver, Colorado',
   end_dest: 'Fort Collins, Colorado',
   completed: "2021-10-05T18:05:05.000Z",
+  riders: [
+    12450,
+    15231
+  ]
 }
