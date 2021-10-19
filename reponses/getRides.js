@@ -6,39 +6,42 @@ export const getRides = {
     rides: [
       {
         ride_id: 12345,
-        driver: {
+        driver_id: {
           driver_id: 12345,
           username: 'MrDriver',
           rating: 4.5,
         },
         price: '$48.90',
-        seats: 3,
+        available_seats: 3,
         start_dest: 'Denver, Colorado',
         end_dest: 'Fort Collins, Colorado',
+        completed: "2021-10-05T18:05:05.000Z",
       },
       {
         ride_id: 12346,
-        driver: {
+        driver_id: {
           driver_id: 12345,
           username: 'MrsDriver',
           rating: 4.8,
         },
         price: '$55.17',
-        seats: 5,
+        available_seats: 5,
         start_dest: 'Denver, Colorado',
         end_dest: 'Fort Collins, Colorado',
+        completed: "2021-10-05T18:05:05.000Z",
       },
       {
         ride_id: 12347,
-        driver: {
+        driver_id: {
           driver_id: 12345,
           username: 'MrDriverJr',
           rating: 2.5,
         },
         price: '$38.75',
-        seats: 2,
+        available_seats: 2,
         start_dest: 'Denver, Colorado',
         end_dest: 'Fort Collins, Colorado',
+        completed: null,
       },
     ],
   },
