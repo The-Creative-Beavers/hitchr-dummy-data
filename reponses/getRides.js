@@ -6,8 +6,8 @@ export const getRides = {
     rides: [
       {
         ride_id: 12345,
-        driver_id: {
-          driver_id: 12345,
+        driver: {
+          id: 12345,
           username: 'MrDriver',
           rating: 4.5,
         },
@@ -20,8 +20,8 @@ export const getRides = {
       },
       {
         ride_id: 12346,
-        driver_id: {
-          driver_id: 12345,
+        driver: {
+          id: 12345,
           username: 'MrsDriver',
           rating: 4.8,
         },
@@ -37,8 +37,8 @@ export const getRides = {
       },
       {
         ride_id: 12347,
-        driver_id: {
-          driver_id: 12345,
+        driver: {
+          id: 12345,
           username: 'MrDriverJr',
           rating: 2.5,
         },
